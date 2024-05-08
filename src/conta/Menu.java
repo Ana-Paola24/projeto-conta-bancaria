@@ -149,7 +149,7 @@ public class Menu {
 						contas.atualizar(new ContaCorrente(numero, agencia, tipo, titular, saldo, limite));
 					}
 					case 2 -> {
-						System.out.println("Digite o dia do Aniversário da COnta: ");
+						System.out.println("Digite o dia do Aniversário da Conta: ");
 						aniversario = leia.nextInt();
 						contas.atualizar(new ContaPoupanca(numero, agencia, tipo, titular, saldo, aniversario));
 					}
@@ -208,7 +208,7 @@ public class Menu {
 			case 8:
 				System.out.println(Cores.TEXT_WHITE + "Transferência entre Contas\n\n");
 				
-				System.out.println("Digite o Número da Onta de Origem: ");
+				System.out.println("Digite o Número da Conta de Origem: ");
 				numero = leia.nextInt();
 				System.out.println("Digite o Número da Conta de Destino: ");
 				numeroDestino = leia.nextInt();
